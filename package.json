@@ -1,0 +1,22 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spina7/portafolio.git"
+  },
+  "author": "Sergio Piña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spina7/portafolio/issues"
+  },
+  "homepage": "https://github.com/Spina7/portafolio#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
