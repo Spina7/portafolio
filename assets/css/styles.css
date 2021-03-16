@@ -268,6 +268,7 @@ img {
 .button__light {
   background-color: var(--first-color-lighten);
   color: var(--first-color);
+  padding: 1rem;
 }
 
 .button__light:hover {
@@ -484,7 +485,32 @@ img {
   color: var(--first-color-lighten);
 }
 /* ===== PROJECT IN MIND  =====*/
+.project {
+  background-color: var(--first-color);
+  padding-bottom: 0;
+}
 
+.project__container {
+  row-gap: 2rem;
+}
+
+.project__data {
+  text-align: center;
+}
+
+.project__title,
+.project__description {
+  color: var(--first-color-lighten);
+}
+
+.project__description {
+  margin-bottom: var(--mb-4);
+}
+
+.project__img{
+  width: 220px;
+  justify-content: center;
+}
 /* ===== WORKS =====*/
 
 /* ===== CONTACT =====*/
