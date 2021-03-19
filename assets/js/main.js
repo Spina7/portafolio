@@ -33,11 +33,11 @@ function scrollActive() {
     sectionId = current.getAttribute("id");
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
-        .querySelector(".nav__menu[href*=" + sectionId + "]")
+        .querySelector(".nav__menu a[href*=" + sectionId + "]")
         .classList.add("active");
     } else {
       document
-        .querySelectorAll(".nav__menu a[href*=" + sectionId + "]")
+        .querySelector(".nav__menu a[href*=" + sectionId + "]")
         .classList.remove("active");
     }
   });
