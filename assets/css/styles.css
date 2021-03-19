@@ -134,6 +134,7 @@ img {
 
 .nav__item a {
   display: block;
+  margin-top: 10px;
 }
 
 .nav__menu {
@@ -201,8 +202,6 @@ img {
 }
 
 .home__img {
-  padding-top: 1.3rem;
-  padding-left: 0.8rem;
   width: 160px;
   height: 160px;
   background-color: var(--first-color);
@@ -212,7 +211,8 @@ img {
 }
 
 .home__img img {
-  width: 155px;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .home__title {
@@ -288,8 +288,7 @@ img {
 }
 
 .about__img {
-  width: 150px;
-  border-radius: 0.5rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -492,6 +491,7 @@ img {
 
 .project__container {
   row-gap: 2rem;
+  padding-bottom: 74px;
 }
 
 .project__data {
@@ -667,9 +667,6 @@ img {
     margin-bottom: var(--mb-5);
   }
 
-  .about__img {
-    width: 220px;
-  }
 
   .about__information {
     padding-left: 4rem;
@@ -701,7 +698,7 @@ img {
     align-self: flex-end;
   }
 
-  .contact__button{
+  .contact__button {
     padding: 1rem;
   }
 
@@ -719,38 +716,41 @@ img {
     border-radius: 0.5rem;
   }
 }
-@media screen and (min-width: 1024px){
-  body{
+@media screen and (min-width: 1024px) {
+  body {
     margin: 0;
     padding-left: var(--nav-width);
   }
 
-  .l-header{
+  .l-header {
     width: 0;
   }
 
-  .nav__toggle, .nav__logo, .nav__close{
+  .nav__toggle,
+  .nav__logo,
+  .nav__close {
     display: none;
   }
 
-  .nav__menu{
+  .nav__menu {
     left: 0;
   }
 
-  .home__container{
+  .home__container {
     height: 100vh;
   }
 
-  .section{
+  .section {
     padding: 3rem 0 2rem;
   }
 
-  .bd-grid{
+  .bd-grid {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .services__container, .works__container{
-    grid-template-columns: repeat(3,1fr);
+  .services__container,
+  .works__container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
