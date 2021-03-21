@@ -667,7 +667,6 @@ img {
     margin-bottom: var(--mb-5);
   }
 
-
   .about__information {
     padding-left: 4rem;
   }
@@ -752,5 +751,39 @@ img {
   .services__container,
   .works__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#status {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: all;
   }
 }
